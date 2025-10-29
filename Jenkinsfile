@@ -7,7 +7,7 @@ pipeline {
   }
 
   parameters {
-    string(name: 'REGISTRY', defaultValue: 'your-docker.io/youruser', description: 'Docker registry/repo')
+    string(name: 'REGISTRY', defaultValue: 'docker.io/loksjain25', description: 'Docker registry/repo')
     string(name: 'IMAGE_NAME', defaultValue: 'blue-green-demo', description: 'Image name')
     string(name: 'K8S_NAMESPACE', defaultValue: 'bluegreen-demo', description: 'Kubernetes namespace')
     string(name: 'INGRESS_HOST', defaultValue: 'bluegreen.local', description: 'Host to smoke test (or Service NodePort/LB)')
