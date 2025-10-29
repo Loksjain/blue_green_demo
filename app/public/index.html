@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Blue-Green Demo (Static)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+      }
+      body {
+        display: grid;
+        place-items: center;
+        background: #64748b;
+        color: #fff;
+        font-family: system-ui, Arial, sans-serif;
+      }
+      .card {
+        text-align: center;
+        padding: 2rem 3rem;
+        border-radius: 16px;
+        background: rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(6px);
+      }
+      h1 {
+        font-size: 3rem;
+        margin: 0 0 0.25rem;
+        letter-spacing: 2px;
+      }
+      p {
+        margin: 0.25rem 0;
+      }
+      .dot {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        display: inline-block;
+        background: #fff;
+        margin-right: 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h1><span class="dot"></span>STATIC SAMPLE</h1>
+      <p>VERSION: v0</p>
+      <p>COLOR: #64748b</p>
+    </div>
+  </body>
+</html>
